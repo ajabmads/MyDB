@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MyDB_BufferManager">
+      <UniqueIdentifier>{a301ad28-2523-4a7b-8e08-5a55543a0f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyDB_DBEngine">
+      <UniqueIdentifier>{dd3776df-4654-4b68-a4c5-b5ba46f098a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyDB_Index">
+      <UniqueIdentifier>{524c0446-acb3-476f-9411-0e36bea13951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyDB_BufferManager">
+      <UniqueIdentifier>{0d03b389-8f4a-4c6b-9db3-34f6591a520a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyDB_DBEngine">
+      <UniqueIdentifier>{f33fc3fa-0a95-4355-95c8-898e66c8c9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyDB_Index">
+      <UniqueIdentifier>{7292bfd0-39c6-4825-a08e-a72e315c4458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyDB_Global">
+      <UniqueIdentifier>{088929ff-1c62-445c-8569-791f34b54209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyDB_Global">
+      <UniqueIdentifier>{a7c4ed10-7675-407f-b4c0-fbfe8ef90c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyDB_GlobalPageHeader">
+      <UniqueIdentifier>{fb104ee2-f6c2-4a13-804f-b9a7ab78d78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyDB_GlobalPageHeader">
+      <UniqueIdentifier>{3e34a373-7ef9-4eb6-9dd7-8701a6c27da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{539cb856-3a56-4bfb-81d1-22276cbcdb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{bb6ee1c7-d9e5-4227-b632-1c666692538b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyDataBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMainHeaderPage.cpp">
+      <Filter>Source Files\MyDB_BufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferManager.cpp">
+      <Filter>Source Files\MyDB_BufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files\MyDB_BufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalPageHeader.cpp">
+      <Filter>Source Files\MyDB_GlobalPageHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferManagerTest.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BufferManager.h">
+      <Filter>Header Files\MyDB_BufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Header Files\MyDB_BufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDB_Global_Constant.h">
+      <Filter>Header Files\MyDB_Global</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDB_Global_Constant_ExternDefinition.h">
+      <Filter>Header Files\MyDB_Global</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDB_Global_Defines.h">
+      <Filter>Header Files\MyDB_Global</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDB_Global_Structure.h">
+      <Filter>Header Files\MyDB_Global</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMainHeaderPage.h">
+      <Filter>Header Files\MyDB_BufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalPageHeader.h">
+      <Filter>Header Files\MyDB_GlobalPageHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferManagerTest.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyDataBase.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

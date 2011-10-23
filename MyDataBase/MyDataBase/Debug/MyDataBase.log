@@ -1,0 +1,24 @@
+﻿Build started 9/5/2011 6:37:07 PM.
+     1>Project "C:\ami_work_folder\visualStudio2010\MyDataBase\MyDataBase\MyDataBase.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\MyDataBase.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BufferManager.cpp BufferManagerTest.cpp Frame.cpp GlobalPageHeader.cpp MyDataBase.cpp
+         MyDataBase.cpp
+         Frame.cpp
+         BufferManagerTest.cpp
+         BufferManager.cpp
+     1>c:\ami_work_folder\visualstudio2010\mydatabase\mydatabase\mydb_global_structure.h(5): error C2011: 'GeneralPageHeaderStructure' : 'struct' type redefinition
+                 c:\ami_work_folder\visualstudio2010\mydatabase\mydatabase\mydb_global_structure.h(5) : see declaration of 'GeneralPageHeaderStructure'
+     1>c:\ami_work_folder\visualstudio2010\mydatabase\mydatabase\globalpageheader.h(9): error C2079: 'GlobalPageHeader::_generalPageHeader' uses undefined struct 'GeneralPageHeaderStructure'
+     1>c:\ami_work_folder\visualstudio2010\mydatabase\mydatabase\buffermanager.cpp(43): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\ami_work_folder\visualstudio2010\mydatabase\mydatabase\buffermanager.cpp(45): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         GlobalPageHeader.cpp
+         Generating Code...
+     1>Done Building Project "C:\ami_work_folder\visualStudio2010\MyDataBase\MyDataBase\MyDataBase.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.13
